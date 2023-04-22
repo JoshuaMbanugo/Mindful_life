@@ -15,6 +15,11 @@ public class interactive_page extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_interactive_page);
+        start();
 
+    }
+
+    void start() {
+        System.out.println("Test");
     }
 }
